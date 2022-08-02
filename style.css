@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.ul{
+    list-style: none;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-family: arial;
+}
+
+.nav-links li{
+    margin: 0 30px;
+
+}
+
+section{
+
+    width: 80%;
+    margin: 80px auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-family: Arial;
+
+    
+}
+
+.row .col img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.row .col h4{
+    text-align: center;
+    padding: 10px;
+}
+
+.row .col h3{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+.tours .paragraph .new h5 {
+    align-items: center;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    background-color: grey;
+    
+
+}
+
+.tours .paragraph .new p{
+
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    background-color:grey;
+    
+    
+}
+header{
+    min-height: 700px;
+    width: 100%;
+    background-image: url(5166950.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 50px;
+
+}
+.ctn{
+    padding: 5px 40px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    color: black;
+}
